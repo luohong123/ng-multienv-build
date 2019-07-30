@@ -1,0 +1,32 @@
+// 不同的环境配置管理
+module.exports  = [{
+    systemurl: "http://192.168.0.64:9080/server/api/",
+    apiurl: "http://192.168.0.64:9080/server/api/",
+    fileName: "src/environments/environment.64.ts",
+    envUrl: "environments/environment.64.ts",
+    outDir: "dist64"
+  }, {
+    systemurl: "http://192.168.0.51:9080/server/api/",
+    apiurl: "http://192.168.0.51:9080/server/api/",
+    fileName: "src/environments/environment.51.ts",
+    envUrl: "environments/environment.51.ts",
+    outDir: "dist51"
+  }, {
+    systemurl: "http://192.168.0.120:9080/server/api/",
+    apiurl: "http://192.168.0.120:9080/server/api/",
+    fileName: "src/environments/environment.120.ts",
+    envUrl: "environments/environment.120.ts",
+    outDir: "dist120"
+  }, {
+    systemurl: "http://192.168.0.00:9080/server/api/",
+    apiurl: "http://192.168.0.00:9080/server/api/",
+    fileName: "src/environments/environment.00.ts",
+    envUrl: "environments/environment.00.ts",
+    outDir: "dist00"
+  }, {
+    systemurl: "http://test/server/api/",
+    apiurl: "http://test/server/api/",
+    fileName: "src/environments/environment.test.ts",
+    envUrl: "environments/environment.test.ts",
+    outDir: "test"
+  }]
