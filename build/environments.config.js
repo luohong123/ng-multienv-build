@@ -1,32 +1,124 @@
 // 不同的环境配置管理
-module.exports  = [{
-    systemurl: "http://192.168.0.64:9080/server/api/",
-    apiurl: "http://192.168.0.64:9080/server/api/",
-    fileName: "src/environments/environment.64.ts",
-    envUrl: "environments/environment.64.ts",
-    outDir: "dist64"
-  }, {
-    systemurl: "http://192.168.0.51:9080/server/api/",
-    apiurl: "http://192.168.0.51:9080/server/api/",
-    fileName: "src/environments/environment.51.ts",
-    envUrl: "environments/environment.51.ts",
-    outDir: "dist51"
-  }, {
-    systemurl: "http://192.168.0.120:9080/server/api/",
-    apiurl: "http://192.168.0.120:9080/server/api/",
-    fileName: "src/environments/environment.120.ts",
-    envUrl: "environments/environment.120.ts",
-    outDir: "dist120"
-  }, {
-    systemurl: "http://192.168.0.00:9080/server/api/",
-    apiurl: "http://192.168.0.00:9080/server/api/",
-    fileName: "src/environments/environment.00.ts",
-    envUrl: "environments/environment.00.ts",
-    outDir: "dist00"
-  }, {
-    systemurl: "http://test/server/api/",
-    apiurl: "http://test/server/api/",
-    fileName: "src/environments/environment.test.ts",
-    envUrl: "environments/environment.test.ts",
-    outDir: "test"
-  }]
+module.exports = [{
+  systemurl: "http://192.168.0.01:9080/server/api/",
+  apiurl: "http://192.168.0.01:9080/server/api/",
+  fileName: "src/environments/environment.01.ts",
+  envUrl: "environments/environment.01.ts",
+  outDir: "dist01"
+},
+ {
+  systemurl: "http://192.168.0.02:9080/server/api/",
+  apiurl: "http://192.168.0.02:9080/server/api/",
+  fileName: "src/environments/environment.02.ts",
+  envUrl: "environments/environment.02.ts",
+  outDir: "dist02"
+}, {
+  systemurl: "http://192.168.0.03:9080/server/api/",
+  apiurl: "http://192.168.0.03:9080/server/api/",
+  fileName: "src/environments/environment.03.ts",
+  envUrl: "environments/environment.03.ts",
+  outDir: "dist03"
+}, {
+  systemurl: "http://192.168.0.04:9080/server/api/",
+  apiurl: "http://192.168.0.04:9080/server/api/",
+  fileName: "src/environments/environment.04.ts",
+  envUrl: "environments/environment.04.ts",
+  outDir: "dist04"
+}, {
+  systemurl: "http://192.168.0.05:9080/server/api/",
+  apiurl: "http://192.168.0.05:9080/server/api/",
+  fileName: "src/environments/environment.05.ts",
+  envUrl: "environments/environment.05.ts",
+  outDir: "dist05"
+}, {
+  systemurl: "http://192.168.0.06:9080/server/api/",
+  apiurl: "http://192.168.0.06:9080/server/api/",
+  fileName: "src/environments/environment.06.ts",
+  envUrl: "environments/environment.06.ts",
+  outDir: "dist06"
+}, {
+  systemurl: "http://192.168.0.07:9080/server/api/",
+  apiurl: "http://192.168.0.07:9080/server/api/",
+  fileName: "src/environments/environment.07.ts",
+  envUrl: "environments/environment.07.ts",
+  outDir: "dist07"
+}, {
+  systemurl: "http://192.168.0.08:9080/server/api/",
+  apiurl: "http://192.168.0.08:9080/server/api/",
+  fileName: "src/environments/environment.08.ts",
+  envUrl: "environments/environment.08.ts",
+  outDir: "dist08"
+}, {
+  systemurl: "http://192.168.0.09:9080/server/api/",
+  apiurl: "http://192.168.0.09:9080/server/api/",
+  fileName: "src/environments/environment.09.ts",
+  envUrl: "environments/environment.09.ts",
+  outDir: "dist09"
+}, {
+  systemurl: "http://192.168.0.10:9080/server/api/",
+  apiurl: "http://192.168.0.10:9080/server/api/",
+  fileName: "src/environments/environment.10.ts",
+  envUrl: "environments/environment.10.ts",
+  outDir: "dist10"
+}, {
+  systemurl: "http://192.168.0.11:9080/server/api/",
+  apiurl: "http://192.168.0.11:9080/server/api/",
+  fileName: "src/environments/environment.11.ts",
+  envUrl: "environments/environment.11.ts",
+  outDir: "dist11"
+}, {
+  systemurl: "http://192.168.0.12:9080/server/api/",
+  apiurl: "http://192.168.0.12:9080/server/api/",
+  fileName: "src/environments/environment.12.ts",
+  envUrl: "environments/environment.12.ts",
+  outDir: "dist12"
+}, {
+  systemurl: "http://192.168.0.13:9080/server/api/",
+  apiurl: "http://192.168.0.13:9080/server/api/",
+  fileName: "src/environments/environment.13.ts",
+  envUrl: "environments/environment.13.ts",
+  outDir: "dist13"
+}, {
+  systemurl: "http://192.168.0.14:9080/server/api/",
+  apiurl: "http://192.168.0.14:9080/server/api/",
+  fileName: "src/environments/environment.14.ts",
+  envUrl: "environments/environment.14.ts",
+  outDir: "dist14"
+}, {
+  systemurl: "http://192.168.0.15:9080/server/api/",
+  apiurl: "http://192.168.0.15:9080/server/api/",
+  fileName: "src/environments/environment.15.ts",
+  envUrl: "environments/environment.15.ts",
+  outDir: "dist15"
+}, {
+  systemurl: "http://192.168.0.16:9080/server/api/",
+  apiurl: "http://192.168.0.16:9080/server/api/",
+  fileName: "src/environments/environment.16.ts",
+  envUrl: "environments/environment.16.ts",
+  outDir: "dist16"
+}, {
+  systemurl: "http://192.168.0.17:9080/server/api/",
+  apiurl: "http://192.168.0.17:9080/server/api/",
+  fileName: "src/environments/environment.17.ts",
+  envUrl: "environments/environment.17.ts",
+  outDir: "dist17"
+}, {
+  systemurl: "http://192.168.0.18:9080/server/api/",
+  apiurl: "http://192.168.0.18:9080/server/api/",
+  fileName: "src/environments/environment.18.ts",
+  envUrl: "environments/environment.18.ts",
+  outDir: "dist18"
+}, {
+  systemurl: "http://192.168.0.19:9080/server/api/",
+  apiurl: "http://192.168.0.19:9080/server/api/",
+  fileName: "src/environments/environment.19.ts",
+  envUrl: "environments/environment.19.ts",
+  outDir: "dist19"
+}, {
+  systemurl: "http://192.168.0.20:9080/server/api/",
+  apiurl: "http://192.168.0.20:9080/server/api/",
+  fileName: "src/environments/environment.20.ts",
+  envUrl: "environments/environment.20.ts",
+  outDir: "dist20"
+}
+]

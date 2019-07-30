@@ -26,11 +26,26 @@
                   "environments": {
                         "dev": "environments/environment.ts",
                         "prod": "environments/environment.prod.ts",
-                        "dist64": "environments/environment.64.ts",
-                        "dist51": "environments/environment.51.ts",
-                        "dist120": "environments/environment.120.ts",
-                        "dist00": "environments/environment.00.ts",
-                        "test": "environments/environment.test.ts"
+                        "dist01": "environments/environment.01.ts",
+                        "dist02": "environments/environment.02.ts",
+                        "dist03": "environments/environment.03.ts",
+                        "dist04": "environments/environment.04.ts",
+                        "dist05": "environments/environment.05.ts",
+                        "dist06": "environments/environment.06.ts",
+                        "dist07": "environments/environment.07.ts",
+                        "dist08": "environments/environment.08.ts",
+                        "dist09": "environments/environment.09.ts",
+                        "dist10": "environments/environment.10.ts",
+                        "dist11": "environments/environment.11.ts",
+                        "dist12": "environments/environment.12.ts",
+                        "dist13": "environments/environment.13.ts",
+                        "dist14": "environments/environment.14.ts",
+                        "dist15": "environments/environment.15.ts",
+                        "dist16": "environments/environment.16.ts",
+                        "dist17": "environments/environment.17.ts",
+                        "dist18": "environments/environment.18.ts",
+                        "dist19": "environments/environment.19.ts",
+                        "dist20": "environments/environment.20.ts"
                   }
             }
       ],
