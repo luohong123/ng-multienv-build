@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build: multienv"
+    "multienv": "node build/build.js"
   },
   "private": true,
   "dependencies": {
@@ -22,7 +22,10 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "chalk": "^2.4.2",
     "core-js": "^2.4.1",
+    "log-symbols": "^3.0.0",
+    "ora": "^3.4.0",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
